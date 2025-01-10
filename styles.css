@@ -24,9 +24,18 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    position: relative;
     padding: 10px;
     flex-direction: column;
+     /* Asegura la sincronización */
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+
+.container-item.hidden {
+    
+    visibility: hidden;
+     /* Sincroniza la visibilidad después de la transición de opacidad */
 }
 
 .container-item h1 {
@@ -43,7 +52,7 @@ body {
     font-size: 32px;
 }
 
-/* Colors */
+
 .yellow {
     background-color: #FFD75F;
 }
@@ -60,7 +69,7 @@ body {
     background-color: #3DD598;
 }
 
-/* For items with both text and icon */
+
 .container-item.with-icon {
     display: flex;
     gap: 10px;
