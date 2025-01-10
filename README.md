@@ -9,8 +9,7 @@ Una página web interactiva que muestra una colección de mensajes motivacionale
 - Efectos interactivos:
   - Las tarjetas desaparecen suavemente al pasar el mouse
   - Reaparecen al hacer clic en su ubicación
-- Transiciones suaves y animadas
-- Diseño moderno y atractivo
+
 
 ## 🚀 Tecnologías Utilizadas
 
