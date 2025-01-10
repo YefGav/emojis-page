@@ -26,16 +26,19 @@ body {
     border-radius: 8px;
     padding: 10px;
     flex-direction: column;
-     /* Asegura la sincronización */
-    opacity: 1;
-    visibility: visible;
     position: relative;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    pointer-events: auto; 
 }
 
-.container-item.hidden {
-    
-    visibility: hidden;
-     /* Sincroniza la visibilidad después de la transición de opacidad */
+.container-item.fade-out {
+    opacity: 0;
+    pointer-events: auto; 
+}
+
+.container-item.fade-out * {
+    pointer-events: none; 
 }
 
 .container-item h1 {

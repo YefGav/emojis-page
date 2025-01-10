@@ -1,16 +1,20 @@
-// index.js
 export function initializeHoverAndClickEvents(elements) {
     elements.forEach((element) => {
-        element.addEventListener('mouseover', () => {
-            console.log('Click event triggered');
-            element.classList.add('hidden'); // Agrega la clase que oculta el elemento
-        });
+        let isHidden = false;
 
-        element.addEventListener('click', () => {
-            
-            console.log('Click event triggered');
-            element.classList.remove('hidden'); // Elimina la clase para hacerlo visible
+        element.addEventListener('mouseenter', () => {
+            if (!isHidden) {
+                element.classList.add('fade-out');
+                isHidden = true;
+            }
+        });
+        
+        element.addEventListener('click', (event) => {
+            if (isHidden) {
+                element.classList.remove('fade-out');
+                isHidden = false;
+                event.stopPropagation(); 
+            }
         });
     });
-    console.log(elements);
 }
