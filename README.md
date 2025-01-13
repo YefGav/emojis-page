@@ -7,17 +7,17 @@ Una página web interactiva que muestra una colección de mensajes motivacionale
 - Diseño responsivo con tarjetas de colores
 - Mensajes motivacionales con emojis
 - Efectos interactivos:
-  - Las tarjetas desaparecen suavemente al pasar el mouse
+  - Las tarjetas desaparecen al hacer clic
   - Reaparecen al hacer clic en su ubicación
-- Transiciones suaves y animadas
-- Diseño moderno y atractivo
+
+
 
 ## 🚀 Tecnologías Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- Módulos JavaScript
+
 
 ## 📋 Prerequisitos
 
@@ -43,19 +43,19 @@ cd emojis-page
 
 La página muestra una cuadrícula de tarjetas coloridas con mensajes motivacionales y emojis. Para interactuar:
 
-1. Pasa el mouse sobre cualquier tarjeta para que desaparezca con una transición suave
-2. Haz clic en el espacio donde estaba la tarjeta para que vuelva a aparecer
-3. Disfruta de los mensajes motivacionales y los emojis
+Pasa el mouse sobre las tarjetas para ver un efecto de elevación suave
+Haz clic en cualquier tarjeta para que desaparezca
+Haz clic nuevamente en el espacio de la tarjeta para que vuelva a aparecer
 
 ## 🔧 Estructura del Proyecto
 
 ```
 emojis-page/
 │
-├── index.html          # Archivo principal HTML
-├── styles.css         # Estilos CSS
-├── index.js          # Lógica principal de JavaScript
-└── events.js        # Manejadores de eventos
+├── index.html          # Archivo principal HTML con estructura semántica
+├── styles.css         # Estilos CSS con efectos modernos
+└── index.js          # JavaScript moderno con event listeners
+
 ```
 
 ## 🤝 Contribuir
