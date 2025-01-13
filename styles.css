@@ -26,22 +26,21 @@ body {
     border-radius: 8px;
     padding: 10px;
     flex-direction: column;
-    position: relative;
     opacity: 1;
-    transition: opacity 0.4s ease;
-    pointer-events: auto; 
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .container-item.fade-out {
     opacity: 0;
-    pointer-events: auto; 
 }
 
-.container-item.fade-out * {
-    pointer-events: none; 
+.container-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.container-item h1 {
+.container-item h2 {
     color: white;
     font-size: 24px;
     font-weight: 800;
@@ -53,28 +52,10 @@ body {
 
 .icon {
     font-size: 32px;
+    margin-bottom: 10px;
 }
 
-
-.yellow {
-    background-color: #FFD75F;
-}
-
-.blue {
-    background-color: #7CD3FF;
-}
-
-.red {
-    background-color: #FF7E7E;
-}
-
-.green {
-    background-color: #3DD598;
-}
-
-
-.container-item.with-icon {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
+.yellow { background-color: #FFD75F; }
+.blue { background-color: #7CD3FF; }
+.red { background-color: #FF7E7E; }
+.green { background-color: #3DD598; }
