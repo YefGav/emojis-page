@@ -39,13 +39,13 @@ cd emojis-page
 
 3. Abre el archivo `index.html` en tu navegador o utiliza un servidor local.
 
-## 🎮 Uso
+##🎮 Uso
 
 La página muestra una cuadrícula de tarjetas coloridas con mensajes motivacionales y emojis. Para interactuar:
 
-Pasa el mouse sobre las tarjetas para ver un efecto de elevación suave
-Haz clic en cualquier tarjeta para que desaparezca
-Haz clic nuevamente en el espacio de la tarjeta para que vuelva a aparecer
+1.Pasa el mouse sobre las tarjetas para ver un efecto de elevación suave
+2.Haz clic en cualquier tarjeta para que desaparezca
+3.Haz clic nuevamente en el espacio de la tarjeta para que vuelva a aparecer
 
 ## 🔧 Estructura del Proyecto
 
